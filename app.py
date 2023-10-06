@@ -1,5 +1,4 @@
 from flask import Flask,request,render_template,jsonify
-
 from source.pipeline.prediction_pipeline import PredictPipeline,CustomData
 #this is to trigger CI-CD pipeline
 
